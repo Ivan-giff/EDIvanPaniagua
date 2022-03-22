@@ -20,7 +20,6 @@ import java.util.Scanner;
 import javax.script.ScriptEngine;
 
 import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
 
 public class Paniagua_Ivan_PROG06_Practica {
     
@@ -105,7 +104,7 @@ public class Paniagua_Ivan_PROG06_Practica {
             
            valor = Integer.decode(result.toString());
             
-        } catch (NumberFormatException | ScriptException e) {
+        } catch (Exception e) {
             
             e.getMessage();
         }
