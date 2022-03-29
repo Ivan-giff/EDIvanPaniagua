@@ -40,13 +40,12 @@ public class Paniagua_Ivan_PROG06_Practica {
    
    /**
     * 
+    *  La siguiente funcion es la ultima de todas y comprueba cual es el ganador
+    *  se le introduce el array de puntuaciones y calcula el ganador
+    * 
     * @param puntuacion
     * 
     * @return hueco 
-    * 
-    * La siguiente funcion es la ultima de todas y comprueba cual es el ganador
-    * se le introduce el array de puntuaciones y calcula el ganador
-    * 
     * 
     */
    
@@ -82,11 +81,12 @@ public class Paniagua_Ivan_PROG06_Practica {
     }
    /**
     * 
+    * Funcion que al Introducir nuestro String nos devuelve el resultado
+    * 
     * @param expresion
     * 
     * @return valor
     * 
-    * Funcion que al Introducir nuestro String nos devuelve el resultado
     * 
     */
    
@@ -215,11 +215,10 @@ public class Paniagua_Ivan_PROG06_Practica {
    
    /**
     * 
-    * 
-    * @param contRondas 
-    * 
     * Esta funcion lleva acabo las rondas que incluye
     * la pregunta, guardar los puntos y pasar a la siguiente ronda
+    * 
+    * @param contRondas 
     * 
     * 
     */
@@ -333,12 +332,10 @@ public class Paniagua_Ivan_PROG06_Practica {
    
    /**
     * 
-    * @param a 
-    * 
     * Esta funcion se encarga de crear el array de jugadores y el array de puntuaciones con el numero introducido
     * Una vez introducido el numero este preguntara poir el nombre de todos los jugadores y los guardara en el array jugadores
     * 
-    * 
+    * @param a 
     * 
     */
    
@@ -375,11 +372,11 @@ public class Paniagua_Ivan_PROG06_Practica {
     
    /**
     * 
-    * @param args
-    * 
-    * La funcion main la cual se encarga de enlazar todo 
+    *La funcion main la cual se encarga de enlazar todo 
     * y empezar el juego
     * 
+    * @param args
+    *
     */
    
    public static void main(String [] args){
